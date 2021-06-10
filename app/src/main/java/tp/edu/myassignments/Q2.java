@@ -22,13 +22,13 @@ public class Q2 {
 
         System.out.println("Lower limit : " + minnum);
 
-        int minnum1 = minnum+1;
+        int minnum1 = minnum + 1;
 
         System.out.println(" ");
 
         System.out.print("counting : ");
 
-        for(int num=minnum1; (num<maxnum) ; num++)
+        for(int num=minnum; (num<maxnum) ; num++)
         {
             System.out.print( num + " ");
         }
